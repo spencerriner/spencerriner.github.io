@@ -84,6 +84,9 @@
   
     &lt;li&gt;&lt;a href="/tags"&gt;Tags&lt;/a&gt;&lt;/li&gt;
   
+  
+    &lt;li&gt;&lt;a href="/test"&gt;Test&lt;/a&gt;&lt;/li&gt;
+  
 &lt;/ul&gt;
 </description>
     </item>
@@ -95,6 +98,12 @@
 &lt;/ul&gt;
 
  
+</description>
+    </item>
+    <item>
+      <title>Test</title>
+      <link>/test</link>
+      <description>&lt;p&gt;ABOUT ME&lt;/p&gt;
 </description>
     </item>
   </channel>
