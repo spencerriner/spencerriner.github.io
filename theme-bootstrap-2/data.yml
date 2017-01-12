@@ -1,10 +1,11 @@
-title : Spencer Riner
-tagline: To be decided
+title : Site Title
+tagline: Site Tagline
 author :
-  name : Spencer Riner
-  email : spencerriner@gmail.com
-  github : spencerriner
-  twitter : sriner
+  name : First-name Last-name
+  email : blah@email.test
+  github : username
+  twitter : username
+  feedburner : feedname
 
 navigation :
   - archive
