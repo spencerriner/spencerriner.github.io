@@ -1,14 +1,41 @@
 <?xml version="1.0"?>
 <rss version="2.0">
   <channel>
-    <title/>
-    <description/>
+    <title>Site Title</title>
+    <description>Site Title</description>
     <link/>
     <pubDate>2017-01-11</pubDate>
     <item>
       <title>About Me</title>
       <link>/about-me</link>
       <description>&lt;p&gt;ABOUT ME&lt;/p&gt;
+</description>
+    </item>
+    <item>
+      <title>Archive</title>
+      <link>/archive</link>
+      <description>
+</description>
+    </item>
+    <item>
+      <title>Categories</title>
+      <link>/categories</link>
+      <description>
+&lt;ul class="tag_box inline"&gt;
+&lt;/ul&gt;
+
+</description>
+    </item>
+    <item>
+      <title>Home</title>
+      <link>/</link>
+      <description>## Hello World
+
+
+&lt;div class="pagination"&gt;
+  &lt;ul&gt;
+  &lt;/ul&gt;
+&lt;/div&gt;
 </description>
     </item>
     <item>
@@ -29,6 +56,48 @@
 &lt;/ul&gt;
 
 &lt;p&gt;Sanity test&lt;/p&gt;
+</description>
+    </item>
+    <item>
+      <title>Pages</title>
+      <link>/pages</link>
+      <description>
+&lt;ul&gt;
+  
+    &lt;li&gt;&lt;a href="/about-me"&gt;About Me&lt;/a&gt;&lt;/li&gt;
+  
+  
+    &lt;li&gt;&lt;a href="/archive"&gt;Archive&lt;/a&gt;&lt;/li&gt;
+  
+  
+    &lt;li&gt;&lt;a href="/categories"&gt;Categories&lt;/a&gt;&lt;/li&gt;
+  
+  
+    &lt;li&gt;&lt;a href="/"&gt;Home&lt;/a&gt;&lt;/li&gt;
+  
+  
+    &lt;li&gt;&lt;a href="/"&gt;Index&lt;/a&gt;&lt;/li&gt;
+  
+    &lt;li class="active"&gt;&lt;a href="/pages" class="active"&gt;Pages&lt;/a&gt;&lt;/li&gt;
+  
+  
+  
+    &lt;li&gt;&lt;a href="/tags"&gt;Tags&lt;/a&gt;&lt;/li&gt;
+  
+  
+    &lt;li&gt;&lt;a href="/test"&gt;Test&lt;/a&gt;&lt;/li&gt;
+  
+&lt;/ul&gt;
+</description>
+    </item>
+    <item>
+      <title>Tags</title>
+      <link>/tags</link>
+      <description>
+&lt;ul class="tag_box inline"&gt;
+&lt;/ul&gt;
+
+ 
 </description>
     </item>
     <item>
