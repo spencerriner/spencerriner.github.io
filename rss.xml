@@ -14,7 +14,7 @@
     <item>
       <title>Index</title>
       <link>/</link>
-      <description>&lt;h1 id="toc_0"&gt;Hello World =D&lt;/h1&gt;
+      <description>&lt;h1 id="toc_0"&gt;Hello World&lt;/h1&gt;
 
 &lt;blockquote&gt;
 &lt;p&gt;A profound quote.&lt;/p&gt;
@@ -26,9 +26,9 @@
 &lt;li&gt;apples&lt;/li&gt;
 &lt;li&gt;oranges&lt;/li&gt;
 &lt;li&gt;watermelons&lt;/li&gt;
-&lt;li&gt;tomatoes&lt;/li&gt;
-&lt;li&gt;avocados&lt;/li&gt;
 &lt;/ul&gt;
+
+&lt;p&gt;Sanity test&lt;/p&gt;
 </description>
     </item>
     <item>
