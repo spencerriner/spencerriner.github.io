@@ -1,4 +1,4 @@
-# Hello World =D
+# Hello World 
 
 > A profound quote.
 
@@ -7,5 +7,5 @@
 - apples
 - oranges
 - watermelons
-- tomatoes
-- avocados
+
+Sanity test
