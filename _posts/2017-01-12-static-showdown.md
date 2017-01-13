@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Static Showdown"
-description: "48 hours of guessing and checking. First post."
+description: "The trials and tribulations of spinning up a blog without WordPress."
 date: 2017-01-12
 tags: [rant, blog]
 comments: true
