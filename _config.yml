@@ -20,7 +20,7 @@ google-analytics:
 
 # Disqus
 disqus:
-  id:               "scriner"
+  id:               "spencerriner-github-io"
 
 # URL
 url:                "https://spencerriner.github.io" # the base hostname & protocol for your site
