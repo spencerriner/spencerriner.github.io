@@ -26,6 +26,14 @@
 		<a href="https://{{ site.author.tumblr }}.tumblr.com"><i class="fa fa-tumblr" aria-hidden="true"></i></a>
 		{% endif %}
 
+		{% if site.author.bandcamp %}
+		<a href="https://{{ site.author.bandcamp }}.bandcamp.com"><i class="fa fa-bandcamp" aria-hidden="true"></i></a>
+		{% endif %}
+
+		{% if site.author.soundcloud %}
+		<a href="https://soundcloud.com/{ site.author.soundcloud }}"><i class="fa fa-soundcloud" aria-hidden="true"></i></a>
+		{% endif %}
+
 		{% if site.author.email %}
 		<a href="mailto:{{ site.author.email }}"><i class="fa fa-envelope" aria-hidden="true"></i></a>
 		{% endif %}
