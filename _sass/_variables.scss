@@ -13,15 +13,15 @@ $code-gist-font: Menlo, Monaco, "Courier New", monospace !important;
 /*--------------
   Color
   -------------- */
-$base-color: rgba(#333,0.8);
-$base-lighten-color: lighten($base-color, 50);
+$base-color: rgba(#073642,0.8);
+$base-lighten-color: #2aa198;
 
 $background-color: #fff;
-$background-over-color: #f5f7f9;
+$background-over-color: darken($background-color, 5);
 
-$text-color: #333;
-$link-color: #268bd2;
-$code-color: #bf616a;
-$code-background-color: #f9f9f9;
-$table-border-color: #e5e5e5;
-$table-background-color: #f9f9f9;
+$text-color: #002b36;
+$link-color: #2aa198;
+$code-color: #859900;
+$code-background-color: #fdf6e3;
+$table-border-color: #d33682;
+$table-background-color: #fdf6e3;
