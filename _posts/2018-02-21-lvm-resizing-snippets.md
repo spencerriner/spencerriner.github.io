@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "LVM Snippets for the Future"
+title: "LVM Resizing Snippets"
 date: 2018-02-21
 tags: [guide, linux, lvm]
 comments: true
