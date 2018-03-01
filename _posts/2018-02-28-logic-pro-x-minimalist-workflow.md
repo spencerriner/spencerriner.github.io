@@ -55,11 +55,15 @@ Superior Drummer is a pretty great MIDI drum sampler that I've grown to really l
 
 I've been doing this new thing since I got my Princeton where I record two mikes at the same time. I put an SM57 up close to the grille, almost touching, and some AKG condenser a bit farther out to kind of get the sound of the room (even if the room isn't that great). Another cool tip I picked up from a buddy, you can later blend these tracks as needed and accentuate whichever track fits the part better. I make a track for each mike for two different guitar parts. Go ahead and set the inputs on these tracks as well and try to keep it consistent between projects. 
 
+You can also set up your buses with a favorite reverb, delay, etc. but keep the sends at zero so you don't get distracted when tracking.
+
 ## Record Dry
 
 I know for a lot of people this can be challenging, it sucks for me too, but I think it's a good way to do things. Program in the drums for the entire song. This should be pretty easy since we already wrote the entire song...right? Then grab the bass, dial in the settings perfectly, and run through the entire thing in one take. I try not to punch in too much, I really prefer just finishing the entire take and then doing one or two additional takes on top and comping the best parts. 
 
 This works well for me because I don't have to keep switching contexts. I hate plugging and unplugging cables, and I end up doing it a lot because I have a puny two input interface. (To do: buy an interface with more inputs). 
+
+The most important part that I admittedly forgot to write on my first go-round of this post (should start writing drafts...) is to **not put plugins on anything while tracking**. Don't pan, don't compress, no buses (unless they're already in your template), none of that stuff. Just serve the song and get an honest look at the song as it forms. This is important! 
 
 ## Take a Break
 
