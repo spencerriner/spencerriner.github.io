@@ -7,9 +7,9 @@ comments: true
 share: true
 ---
 
-#Software
+# Software
 
-##Docker
+## Docker
 
 * How do I set up my own Docker registry? (Dockerhub?)
 * What's the difference between pulling an image and building it yourself?
@@ -20,23 +20,23 @@ share: true
   * GitLab runners?
 * Can containers fully replace infrastructure VMs that run headless, or even bare metal?
 
-##Foreman
+## Foreman
 
 * How can I use Foreman to provision new nodes from inception to decommission?
 * How can the use of environments, config groups and host groups be improved in our current implementation?
 
-##Ansible
+## Ansible
 
 * What does Ansible offer that I can't do with Puppet already? Does it solve any obvious problems?
 
-##HTML/CSS
+## HTML/CSS
 
 * How does Jekyll work? How can I customize the layout of my blog using templates and layout hacks?
 * Is SASS compiled? If I change a variable in one place, will the change be reflected through the blog immediately or does it need to be recompiled? 
 * What does the `jekyll build` command do? 
 * How does git know that I committed a change to the blog and regenerate the content on the web?
 
-#Computer Hardware
+# Computer Hardware
 
 * What is iSCSI and how are we currently using it in our environment?
 * What's the big difference between a SAN and a NAS? (I think I kind of know this already, but I'd like to know more)
@@ -44,7 +44,7 @@ share: true
 * What do the stats of hard drives refer to (IOPS, read/write, etc.) and how do they affect the decision making process when shopping for new hardware?
 * What is a fabric extender, and how does it relate to a switch?
 
-#Electronics
+# Electronics
 
 * How do I solder something? Pitfalls to avoid?
 * What is a transistor? Capacitor? What role do they play in computers? In guitar amplifiers?
@@ -52,7 +52,7 @@ share: true
 
 ---
 
-#Docker
+# Docker
 
 I hear about Docker constantly. We use it at work for Continuous Integration, and I basically get it. Spinning up a fresh container ensures that we have our dependencies completely defined, there aren't any weird config options hiding in the shadows, and everything is basically reproducible if needed. That (pretty much) makes sense to me for that particular use case. But when people start talking about using Docker for system admin stuff, then my ears really perk up. I can't really mentally grasp the benefit of configuring a Docker container to do something like DNS. Our DNS in particular is pretty much always changing. Entries are added (manually, or in some environments dynamically) and the files are constantly being edited. New zones are added. So how does a container really help in that case? 
 
@@ -67,7 +67,7 @@ But then that just brings up more questions:
 
 Obviously there are a lot of considerations that go into a big infrastructure switch like this, but I'd really like to try and figure out a way to do this ourselves. This is one of my biggest and most pressing goals.
 
-#HTML/CSS
+# HTML/CSS
 
 I really like web design as a casual hobby. It's fun for me. There's something really cool about the instant results you get when you can refresh a page that you wrote.
 
@@ -75,7 +75,7 @@ Jekyll is really cool for quickly spinning up a blog, and using someone's existi
 
 At some point I'd definitely like to design my own Jekyll-powered blog and make it uniquely me. I love the layout of Julia Evans' blog. It's really clean and nice to look at.
 
-#Computer Hardware
+# Computer Hardware
 
 This is the next-level system admin stuff that I really want to dive into. Everybody has to start with the outer layer of systems; your services, end-user workstations, visible switches. And I have a good idea of how most of that stuff is networked and how it works. But I really want to dig in to the deeper, gnarly fiber switches and what really makes them work. How they're connected to each other, and how the hardware could be improved in the future.
 
