@@ -3,11 +3,11 @@
 /*--------------
   Font
   -------------- */
-@import 'https://fonts.googleapis.com/css?family=Raleway:300,300i,600';
+@import 'https://fonts.googleapis.com/css?family=Inconsolata|Roboto+Slab:300,400,700';
 
-$base-font: "Raleway", Helvetica, Arial, sans-serif;
-$code-font: Menlo, Monaco, monospace;
-$code-gist-font: Menlo, Monaco, "Courier New", monospace !important;
+$base-font: "Roboto Slab", Helvetica, Arial, sans-serif;
+$code-font: "Inconsolata", Monaco, monospace;
+$code-gist-font: "Inconsolata", Monaco, "Courier New", monospace !important;
 
 
 /*--------------
