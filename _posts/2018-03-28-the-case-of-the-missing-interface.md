@@ -3,11 +3,14 @@ layout: post
 title: "The Case of the Missing Interface"
 date: 2018-03-28
 tags: [linux, sysadmin]
+category: sysadmin
 comments: true
 share: true
 ---
 
 I had an interesting request at work yesterday afternoon that I thought might be worth reflecting on for a bit. It involves a laptop restored from an image of a different laptop (with potentially different hardware), no internet connection, and a hacky **systemd** solution at the end.
+
+<!--description-->
 
 # Background Info
 
@@ -17,7 +20,7 @@ We'd set up a laptop a few months ago with Ubuntu 16.04 and some special configs
 
 It's pretty straightforward - the OS couldn't identify the Ethernet interface. Running `ifconfig` only showed the loopback interface (`lo`) and nothing else. `lspci` did show a generic Atheros device connected, but it wasn't able to get any information about its model number. Before I got there, they'd sent me some output from running `lshw -C network`:
 
-```
+```bash
 *-network UNCLAIMED
 description: Ethernet Controller
 product: Qualcomm Atheros
@@ -38,7 +41,7 @@ What does this mean? Seems pretty obviously to be a driver issue, but why is it 
 
 This is why I suspect the new laptop has different hardware - maybe the interface is too new for an old LTS release of Ubuntu to support? Or maybe it's something specific to Atheros interfaces? Either way, it's only a problem on this laptop - the System76 (which uses an Intel interface) seems to be fine. And what sometimes sucks about old/extra stable OS releases (like CentOS, for instance) is that new hardware (or more unusual choices like Atheros) will really screw it up. Most of the forum posts I found regarding this issue were either from 2012 or just told me to upgrade to a much newer kernel/version of Ubuntu, which in this case wasn't really an option. I finally found an [askubuntu thread](https://askubuntu.com/questions/881479/install-atheros-e2600-drivers) with an answer that recommended the following commands:
 
-```
+```bash
 sudo modprobe alx
 echo '1969 e0b1' | sudo tee /sys/bus/pci/drivers/alx/new_id
 ```
@@ -86,7 +89,7 @@ My first instinct is to write up a little bash script and put it in `init.d` or 
 
 Yeah, yeah. I know. I like systemd as much as the next guy (actually, probably more than the next guy since there's a large group of people who really hate it) but I've never gone through the process of writing my own service. It's actually pretty easy; it ended up looking something like this:
 
-```
+```bash
 [Unit]
 Description=Loads alx module and inserts new id's
 Before=network

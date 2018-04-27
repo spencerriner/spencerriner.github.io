@@ -1,103 +1,16 @@
-# Kiko Plus Theme
+# jekyll-simple
 
-![image](/images/image.png)
+## simple
+simple is a theme designed for blogger using static site generator like jekyll, Hexo etc.
 
-You can see live demo [here](https://aweekj.github.io/Kiko-plus)
+Especially for those who writes in both Chinese and English. The font-type setting looks really good when writers use Chinese mixed with English.
 
-This theme is inspired by [Kiko](http://github.com/gfjaru/Kiko) theme, powered by [Jekyll](http://jekyllrb.com), hosted on [Github Pages](https://pages.github.com).
+Supposedly, this could work with Japanese as well but never had a chance to try.
 
-## Features
+## Story behind this theme
 
-- Disqus comment system
-- Google analytics
-- Pagination support
-- Custom tags
-- SEO support
+It has been long that using font with Chinese in web was a tedious and time-consuming work. It would be almost impossible to make different OS or devices to look the same.
 
+iOS 9 has pulished some new fonts in Chinese and I decided to make one theme that looks good on iOS devices, at the same time, making it acceptable on computers using other fonts.
 
-## Installation
-
-#### Method 1: new master's repository (The Best)
-
-1. First [fork](https://github.com/AWEEKJ/Kiko-plus/fork) it.
-2. Change your forked repository name _Kiko-plus_ to __USERNAME.github.io__ where
-   __USERNAME__ is your github user name.
-3. Access your new blog via [https://username.github.io](https://username.github.io).
-4. [See configuration](#configuration).
-
-#### Method 2: gh-pages in existing repository
-
-1. Create a new branch called _gh-pages_ in the repository where you want to add a template [managing branches](https://help.github.com/articles/creating-and-deleting-branches-within-your-repository/).
-2. From command line run `git clone https://github.com/AWEEKJ/Kiko-plus.git` - this will clone _Kiko-plus_ template to your computer.
-3. Create new branch `git checkout -b gh-pages` where _gh-pages_ will be your branch name.
-4. Add remote, which is your repo from the first step, to your new branch `git remote add gh-pages https://github.com/<yourName>/<yourMaster>/gh-pages`. _yourName_ is your account name and _yourMaster_ is your repository.
-5. Push new branch to remote `git push gh-pages`.
-6. Update `_config.yml` file by changing `baseurl: "<branchName>"` _branchName_ is your branch name where _gh-pages_ resides. See [configuration](#configuration).
-
-#### Method 3: run it locally
-
-1. Download [zip](https://github.com/AWEEKJ/Kiko-plus/archive/master.zip) or clone it `git clone https://github.com/AWEEKJ/Kiko-plus`.
-2. Go inside folder and run `jekyll serve` or `bundle exec jekyll s` or `rake preview`. This will build a website which you can access [https://localhost:4000](https://localhost:4000). You need to have [Jekyll](https://jekyllrb.com/docs/installation/) installed to do this.
-
-
-## Configuration
-
-All configuration is done via `_config.yml` file which you will find in your main repo folder. Change this `<something>` to yours.
-
-- Change this to your blog name.
-
-```yml
-name: <blog-name>
-```
-
-- Change this to your domain. **NOTE**- if running locally change this to `url: "https://localhost:4000"`.
-
-```yml
-url: "https://<your-name>.github.io"
-```
-
-- Change this to your branch name where _gh-pages_ resides. !NOTE apply only if you used __Method 2__ for installation.
-
-```yml
-baseurl: "/<branch-name>"
-```
-
-- These configuration in `author:` is for links to icons in footer. Modify `_includes/footer.html` to add more link icons.
-
-```yml
-author:
-  name:             your-name
-  facebook:         your-id
-  twitter:          your-id
-  github:           your-id
-  linkedin:         your-id
-  medium:           your-id
-  tumblr:           your-id
-  email:            your-id@your-email.com
-```
-
-- Change this to your Google Analytic ID.
-
-```yml
-google-analytics:
-  id:               your-id
-```
-
-- Change this to your Disqus ID.
-
-```yml
-disqus:
-  id:               your-id
-```
-
-## Rakefile Usage
-
-```bash
-$ rake post title="A Title" [date="2015-08-16"] [tags=[tag1,tag2]]
-$ rake draft title="A Title" [date="2015-08-16"] [tags=[tag1,tag2]]
-$ rake preview
-```
-
-## License
-
-This theme is released under MIT License.
+So mobile goes first, then the macOS.

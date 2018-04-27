@@ -1,6 +1,11 @@
 ---
+layout: page
 title: About
 permalink: /about/
 ---
 
-By day, I'm a System and Network Administrator at the Johnson Space Center in Houston. The spectrum of what I do is pretty wide, but in general I like tinkering with Linux, hacking hardware for personal enjoyment, and refreshing the Hacker News front page a few times an hour. I also record music; you can find some of my recordings on [BandCamp](http://fredmanfredd.bandcamp.com) and [SoundCloud](http://soundcloud.com/fredmanfredd). 
+This is a simple Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/).  Plus, you can find a lot of themes at [jekyllthemes.org](http://jekyllthemes.org/)
+
+You can find the source code for this theme at: <data data-icon="ei-sc-github"></data>  [jekyll-simple](https://github.com/wild-flame/jekyll-simple)
+
+You can find the source code for Jekyll at <data data-icon="ei-sc-github"></data>  [jekyll](https://github.com/jekyll/jekyll)

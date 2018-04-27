@@ -3,6 +3,7 @@ layout: post
 title: "LVM Resizing Snippets"
 date: 2018-02-21
 tags: [guide, linux, lvm]
+category: sysadmin
 comments: true
 share: true
 ---
@@ -10,6 +11,8 @@ share: true
 I can never remember how to expand a filesystem if I'm expanding an LVM volume, so I'm writing it down for future reference.
 
 I also ran into an interesting situation recently that I thought might be worth documenting. We use [kickstart](https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/7/html/installation_guide/sect-kickstart-howto) to provision common operating systems on new computers, and recently got two HP Z800s to use as CI builders. They came loaded with a 3.5" hard disk drive and an M.2 NVMe drive. While installing Scientific Linux 6, we ran into some issues where the OS basically wouldn't load at all and skipped over the boot disk, no matter what partitioning or LVM scheme we used. I suspected that the NVMe drive was the culprit and I was right - after removing the drive, the install completed fine. However, this meant that I had two existing volumes (`/home` and `swap`) that needed to be moved to the fast drive. Took me a few tries, but eventually I figured it out.
+
+<!--description-->
 
 I'll start easy with expanding an existing filesystem.
 

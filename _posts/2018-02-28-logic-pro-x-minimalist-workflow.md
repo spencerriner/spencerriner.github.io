@@ -3,11 +3,14 @@ layout: post
 title: "Logic Pro X Minimalist Workflow"
 date: 2018-02-28
 tags: [recording, workflow]
+guide: audio
 comments: true
 share: true
 ---
 
 I have this terrible habit, when I record music. I'm trying to break it, but I also needed a plan to facilitate better habits. What usually happens is I sit down at my computer without any ideas, load up a Drummer track, fiddle around on guitar for a bit, come up with something half cool and track it right away. I'll write a few more parts, or a bassline, or whatever, until the skeleton of a song starts to appear. At about this time, I start adding a zillion plugins to all of the existing tracks.
+
+<!--description-->
 
 # How Plugins Can Hinder
 

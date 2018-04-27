@@ -3,6 +3,7 @@ layout: post
 title: "Things I Want to Learn"
 date: 2018-03-13
 tags: [list, goals, learning]
+category: personal
 comments: true
 share: true
 ---
@@ -19,6 +20,8 @@ share: true
   * Puppet/Foreman?
   * GitLab runners?
 * Can containers fully replace infrastructure VMs that run headless, or even bare metal?
+
+<!--description-->
 
 ## Foreman
 

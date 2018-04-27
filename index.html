@@ -1,60 +1,56 @@
 ---
 layout: default
+title: spencer riner | blog
 ---
-{% include header.html %}
 
-<div class="list">
-{% if site.posts.size == 0 %}
-  <h2>No post found</h2>
-{% else %}
-<!-- This loops through the paginated posts -->
-{% for post in paginator.posts %}
-  <div class="list-post">
-    {% if post.link %}
-    <a href="{{ post.link }}">
-    {% else %}
-    <a href="{{ post.url | prepend: site.baseurl }}">
-    {% endif %}  
-      <div class="list-post-date">
-        <time>{{ post.date | date_to_string }}</time>
-      </div>
-      <div class="list-post-title">
-        {{ post.title }}
-      </div>
-      {% if post.description %}
-      <div class="list-post-desc">
-        {{ post.description }}
-      </div>
-      {% endif %}
-    </a>
+<div class="home">
+  <div class="post-list">
 
+    {% for post in site.posts limit:10%}
 
+    <article class="post_card post">
+      <header class="post_header">
+        <h2 class="post_title"><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title}}</a></h2>
+        <time class="post_date">{{ post.date | date: "%d %B %Y, %A" }}</time>
+      </header>
+      <!-- 
+      <div class="post_excerpt">
+        <p>
+          {% if post.description %}
+          {{ post.description}}
+          {% else %}
+          {{ post.excerpt }}
+          {% endif %} 
+          <a class="read-more" href="{{ post.url | prepend: site.baseurl }}"> <i>Read more »  </i></a>
+        </p> 
+      </div>
+      <footer class="post_meta">
+      -->
+
+        <!--
+        {% for category in post.categories %}
+        <a href="{{"/category/" | append: category | prepend: site.baseurl }}">
+          <data data-icon="ei-archive"></data>
+          {{category}}</a>
+        {% endfor %}
+        -->
+
+        <!--
+        {% if post.author %}
+        <span class="author_meta">
+          <img src="{{site.baseurl}}/assets/img/{{post.author}}.jpg"></img>
+          <span>David Lin</span>
+        </span>
+        {% endif %}
+        -->
+
+        <!--p class="readmore">
+          <a href=""><data data-icon="ei-arrow-right"></data>Read this article  </a>
+        </p>
+      </footer>    -->
+    </article>
+    {% endfor %}
+
+    <div class="pagination older-post"><a href="./archive"><data data-icon="ei-arrow-right"></data> Archive  </a></div>
   </div>
-{% endfor %}
-  <!-- Pagination links -->
-  <div class="list-pagination">
-    <span class="list-pagination-previous">
-      {% if paginator.previous_page %}
-        <a href="{{ paginator.previous_page_path | prepend: site.baseurl }}" class="previous">
-          <i class="fa fa-angle-left" aria-hidden="true"></i>
-          Previous
-        </a>
-      {% else %}
-
-      {% endif %}
-    </span>
-
-    <span class="list-pagination-next">
-      {% if paginator.next_page %}
-        <a href="{{ paginator.next_page_path | prepend: site.baseurl }}" class="next">
-          Next
-          <i class="fa fa-angle-right" aria-hidden="true"></i>
-        </a>
-      {% else %}
-
-      {% endif %}
-    </span>
-
-  </div>
-{% endif %}
 </div>

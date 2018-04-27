@@ -3,11 +3,14 @@ layout: post
 title: "Learning to Learn"
 date: 2018-03-09
 tags: [essay, learning]
+category: personal
 comments: true
 share: true
 ---
 
 I love reading blogs, especially ones that seem genuine and not geared toward product promotion. I really respect people like Paul Graham and Julia Evans, who blog in a really readable, easy to parse way. There's something really engaging about reading the thoughts of a person who you respect and has an outlook you admire. Even if the subject is trivial, it still has an impact.
+
+<!--description-->
 
 I've had some form of a blog since high school. At the time, the platform-du-jour was Xanga, and my content was a lot more personal and gut-wrenching. It was pretty standard for people my age at that time, but I remember distinctly several times when I would just delete the entire thing, often 40-50 posts over a year or two, and start a fresh one with a new username. 
 

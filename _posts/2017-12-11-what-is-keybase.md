@@ -2,7 +2,8 @@
 layout: post
 title: "What is Keybase?"
 date: 2017-12-11
-tags: [guide, keybase, encryption]
+tags: guide keybase encryption
+category: guide
 comments: true
 share: true
 ---
