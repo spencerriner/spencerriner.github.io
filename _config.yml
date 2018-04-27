@@ -11,8 +11,8 @@ email: spencerriner@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   I am a Linux system administrator at the Johnson Space Center. I like all things 
   tech, playing and recording music in my bedroom studio, and learning new things.
-baseurl: "/jekyll-simple" # the subpath of your site, e.g. /blog
-url: "http://spencerriner.github.io" # the base hostname & protocol for your site
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://spencerriner.github.io" # the base hostname & protocol for your site
 twitter_username: spencerriner 
 github_username:  spencerriner
 
