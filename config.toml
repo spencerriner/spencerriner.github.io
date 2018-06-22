@@ -1,0 +1,49 @@
+baseURL = "https://spencerriner.github.io"
+defaultContentLanguage = "en"
+disqusShortname = ""
+enableEmoji = true
+enableRobotsTXT = true
+googleAnalytics = ""
+languageCode = "en-us"
+pygmentsCodeFences = true
+pygmentsStyle = "native"
+pygmentsUseClasses =  true
+theme = "simplicity"
+title = "spencer riner"
+[author]
+  email = ""
+  facebook = ""
+  github = "https://github.com/spencerriner"
+  google_plus = ""
+  gravatarEmail = "spencerriner@gmail.com"
+  homepageText = "spencer riner"
+  linkedin = "https://linkedin.com/in/spencerriner"
+  messenger = ""
+  name = "Spencer Riner"
+  rss = "/posts/index.xml"
+  spotify = "https://open.spotify.com/user/spencerriner"
+  stackoverflow = ""
+  telegram = ""
+  twitter = "https://twitter.com/spencerriner"
+  keybase = "https://keybase.io/scriner"
+  gitlab = "https://www.gitlab.com/spencerriner"
+  lastfm = "https://last.fm/user/spencerriner"
+[imaging]
+  anchor = "smart"
+  resampleFilter = "box"
+  quality = 75
+[outputs]
+  home = ["HTML"]
+  page = ["HTML"]
+  section = ["HTML", "RSS"]
+  taxonomy = ["HTML", "RSS"]
+  taxonomyTerm = ["HTML"]
+[params]
+  adsenseClient = ''
+  adsenseSlot = ''
+  description = "A blog about everything."
+  licence = "[Some Rights Reserved](http://creativecommons.org/licenses/by-sa/4.0/)."
+[permalinks]
+  posts = "/:year/:month/:day/:slug/"
+[pygmentsOptions]
+  linenos = false
