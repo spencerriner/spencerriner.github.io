@@ -1,9 +1,9 @@
 # Site settings
-title: "TextLog"
+title: "Sysadmin Notebook"
 description: "Minimalist Jekyll theme for documentation site"
-baseurl: "/textlog" # required if used under gh-pages branch, else (under master branch) just leave empty/blank
-url: ""
-author: "John Doe"
+baseurl: "" # required if used under gh-pages branch, else (under master branch) just leave empty/blank
+url: "https://spencerriner.github.io"
+author: "Spencer Riner"
 
 # Build settings
 kramdown:
