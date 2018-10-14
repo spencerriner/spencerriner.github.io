@@ -3,4 +3,4 @@ layout: page
 title: About
 ---
 
-Introduce yourself here... so people will know who you are and what you do.. blah..blah..blah..
+Spencer Riner is the curator and compiler of this system administrator notebook. It is meant to store one liners and bits of code that can be referenced later. 

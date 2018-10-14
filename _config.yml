@@ -1,6 +1,6 @@
 # Site settings
 title: "Sysadmin Notebook"
-description: "Minimalist Jekyll theme for documentation site"
+description: "One-liners and reference for Linux system administrators"
 baseurl: "" # required if used under gh-pages branch, else (under master branch) just leave empty/blank
 url: "https://spencerriner.github.io"
 author: "Spencer Riner"
