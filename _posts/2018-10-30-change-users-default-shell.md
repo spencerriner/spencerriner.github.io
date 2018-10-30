@@ -10,4 +10,4 @@ comment: false
 chsh -s /bin/bash username
 ```
 
-Alternately, edit `/etc/passwd`.
+Alternatively, edit `/etc/passwd`.
