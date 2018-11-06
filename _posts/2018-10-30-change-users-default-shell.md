@@ -6,7 +6,7 @@ author: Spencer Riner
 comment: false
 ---
 
-```
+```bash
 chsh -s /bin/bash username
 ```
 

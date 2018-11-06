@@ -6,8 +6,6 @@ author: Spencer Riner
 comment: false
 ---
 
-Run as root:
-
-```
+```bash
 sudo -l -U username
 ```

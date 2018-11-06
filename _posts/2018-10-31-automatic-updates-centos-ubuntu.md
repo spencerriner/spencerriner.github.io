@@ -10,7 +10,7 @@ comment: false
 
 Install `yum-cron`.
 
-```
+```bash
 yum install yum-cron
 ```
 
@@ -20,7 +20,7 @@ Edit `/etc/yum/yum-cron.conf` to enable updates via `apply_updates = yes`.
 
 Enable and start the service.
 
-```
+```bash
 systemctl enable yum-cron
 systemctl start yum-cron
 ```
@@ -31,14 +31,14 @@ Edit `/etc/sysconfig/yum-cron` if needed. Add `YUM_PARAMETER="-x kernel*"` to no
 
 Enable and start the service.
 
-```
+```bash
 chkconfig yum-cron on
 service yum-cron start
 ```
 
 # Ubuntu
 
-```
+```bash
 sudo apt-get install unattended-upgrades
 sudo dpkg-reconfigure unattended-upgrades
 ```

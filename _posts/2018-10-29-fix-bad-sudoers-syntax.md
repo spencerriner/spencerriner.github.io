@@ -6,7 +6,7 @@ author: Spencer Riner
 comment: false
 ---
 
-```
+```bash
 pkexec visudo
-pkexec /etc/sudoers.d/file
+pkexec vim /etc/sudoers.d/file
 ```

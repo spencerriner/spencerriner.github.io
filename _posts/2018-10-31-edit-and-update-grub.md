@@ -12,13 +12,13 @@ Edit `/etc/default/grub` to your liking.
 
 Make changes effective with `grub2-mkconfig`.
 
-```
+```bash
 grub2-mkconfig -o /boot/grub2/grub.cfg
 ```
 
 UEFI systems use a different path.
 
-```
+```bash
 grub2-mkconfig -o /boot/efi/EFI/centos/grub.cfg
 ```
 

@@ -6,6 +6,6 @@ author: Spencer Riner
 comment: false
 ---
 
-```
+```bash
 setsebool -P use_nfs_home_dirs 1
 ```

@@ -10,13 +10,13 @@ comment: false
 
 Install latest kernel and download Nvidia driver. Nvidia drivers can be downloaded in `elinks` if graphics aren't available:
 
-```
+```bash
 elinks http://download.nvidia.com/XFree86/Linux-x86_64
 ```
 
 or using `wget` if the desired version is known:
 
-```
+```bash
 wget http://download.nvidia.com/XFree86/Linux-x86_64/390.87/NVIDIA-Linux-x86_64-390.87.run
 ```
 
@@ -24,32 +24,32 @@ wget http://download.nvidia.com/XFree86/Linux-x86_64/390.87/NVIDIA-Linux-x86_64-
 
 Edit `/etc/default/grub` and add the following line to `GRUB_CMDLINE_LINUX`:
 
-```
+```bash
 rdblacklist=nouveau nouveau.modeset=0
 ```
 
 Generate new grub config:
 
-```
+```bash
 grub2-mkconfig –o /boot/grub2/grub.cfg
 ```
 
 Add the following line to `/etc/modprobe.d/blacklist.conf`. Create that file if it doesn't exist.
 
-```
+```bash
 blacklist nouveau
 ```
 
 Back up old initramfs and generate a new one:
 
-```
+```bash
 mv /boot/initramfs-$(uname -r).img /boot/initramfs-$(uname -r)-nouveau.img
 dracut /boot/initramfs-$(uname -r).img $(uname -r)
 ```
 
 Reboot the computer and install the Nvidia driver.
 
-```
+```bash
 init 3
 chmod u+x NVIDIA-Linux-x86_64-390.87.run
 ./NVIDIA-Linux-x86_64-390.87.run

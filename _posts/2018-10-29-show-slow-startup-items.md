@@ -8,6 +8,6 @@ comment: false
 
 Print a list of all running units, ordered by the time they took to initialize.
 
-```
+```bash
 systemd-analyze blame
 ```
