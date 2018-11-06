@@ -6,7 +6,7 @@ author: Spencer Riner
 comment: false
 ---
 
-Ruthlessly lifted from https://www.shellhacks.com/yes-no-bash-script-prompt-confirmation/.
+Ruthlessly lifted from <https://www.shellhacks.com/yes-no-bash-script-prompt-confirmation>
 
 ## Read
 
